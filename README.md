@@ -1,17 +1,3 @@
-
-<style>
-    h1, h2, h3, h4, h5, h6 {
-    background-color: #000;
-    color: #A9A9A9;
-    border-bottom: none;
-    border-top: 1px solid white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    border-radius: 10px; 
-  }
-</style>
-
 # DevTinder UI
 
 ## EP-15 DevTinder UI - Part -1
@@ -26,8 +12,7 @@
 - Install Daisy UI
 - Add Navbar Component to APP.js
 
-Link For Commit [ Feed /GET API Initialise - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/59ef162
-) if you want Checkout😊
+Link For Commit [ Feed /GET API Initialise - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/59ef162) if you want Checkout😊
 
 - Create a Navebar.jsx Seperate Component File
 - Install react-router-dom
@@ -35,7 +20,24 @@ Link For Commit [ Feed /GET API Initialise - Link🔗](https://github.com/Pravee
 - Create an Outlet in Your Body Component
 - Create a Footer
 
-Link For Commit [ Feed /GET API Initialise - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/
-) if you want Checkout😊
+Link For Commit [ Feed /GET API Initialise - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/e796653) if you want Checkout😊
 
-</details> 
+</details>
+
+## EP -16 DevTinder UI - Part -2
+
+<details>
+<summary></summary>
+
+- Build Login Form
+- Install Axios
+- CORS - Instll Core in Backend => add middleware with configuration orign : " ", Credentials : true
+- In Front End - Whenever You're Making API Call Pase with { withCredentials : true }
+- Install @reduxjs/toolkit and react-redux - see reduxtoolkit doc
+- configurestore => Provider => createSlice => add reducers to store
+- Add redux devtool in Chrome
+- Login and see it your data is coming properly in the store
+- NavBar should Update as soon as User logs in
+- Refactor Our Code to add constants file + Create a Components folder
+
+</details>
