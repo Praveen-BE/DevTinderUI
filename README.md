@@ -27,7 +27,7 @@ Link For Commit [ Feed /GET API Initialise - Link🔗](https://github.com/Pravee
 ## EP -16 DevTinder UI - Part -2
 
 <details>
-<summary></summary>
+<summary>Read</summary>
 
 - Build Login Form
 - Install Axios
@@ -39,5 +39,20 @@ Link For Commit [ Feed /GET API Initialise - Link🔗](https://github.com/Pravee
 - Login and see it your data is coming properly in the store
 - NavBar should Update as soon as User logs in
 - Refactor Our Code to add constants file + Create a Components folder
+
+Link For Commit [ setup redux store - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/8b1e673) if you want Checkout😊
+
+</details>
+
+## EP -17 DevTinder UI - Part -3
+
+<details>
+
+<summary>Read</summary>
+
+- You Should not be access other routes without login
+- If token is not present, redirect user to login page
+
+Link For Commit [ Redirect to Login If not authenticate - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/) if you want Checkout😊
 
 </details>
