@@ -53,6 +53,10 @@ Link For Commit [ setup redux store - Link🔗](https://github.com/Praveen-BE/De
 - You Should not be access other routes without login
 - If token is not present, redirect user to login page
 
-Link For Commit [ Redirect to Login If not authenticate - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/) if you want Checkout😊
+Link For Commit [ Redirect to Login If not authenticate - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/0bdbbf0) if you want Checkout😊
+
+- Logout Feature
+
+Link For Commit [ Build Logout - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/) if you want Checkout😊
 
 </details>

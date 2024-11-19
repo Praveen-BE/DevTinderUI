@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import axios from "axios";
 import { BASE_URL } from "../constants";
 import { useDispatch, useSelector } from "react-redux";
-import { addUser } from "../utils/userSlice";
+import { addUser, removeUser } from "../utils/userSlice";
 
 const Body = () => {
   const navigate = useNavigate();
@@ -20,6 +20,7 @@ const Body = () => {
       dispatch(addUser(res.data));
     } catch (err) {
       if (err.status === 401) {
+        dispatch(removeUser());
         navigate("/login");
       } else {
         console.error(err);
