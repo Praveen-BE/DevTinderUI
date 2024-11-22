@@ -57,6 +57,13 @@ Link For Commit [ Redirect to Login If not authenticate - Link🔗](https://gith
 
 - Logout Feature
 
-Link For Commit [ Build Logout - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/) if you want Checkout😊
+Link For Commit [ Build Logout - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/142adeb) if you want Checkout😊
+
+- Get the Feed Data and add that in the store
+- Build the User Card on the Feed
+- Gender Drop Down
+- Text Area about
+
+Link For Commit [ Edit profile and Feed Page Initialize - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/) if you want Checkout😊
 
 </details>
