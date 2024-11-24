@@ -4,13 +4,17 @@ import Footer from "./Footer";
 import { useEffect } from "react";
 import axios from "axios";
 import { BASE_URL } from "../constants";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { addUser, removeUser } from "../utils/userSlice";
 
 const Body = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const userData = useSelector((store) => store.user);
+  // const userData = useSelector((store) => store.user);
+
+  useEffect(() => {
+    fetchUser();
+  }, []);
 
   const fetchUser = async () => {
     try {
@@ -23,22 +27,18 @@ const Body = () => {
         dispatch(removeUser());
         navigate("/login");
       } else {
-        console.error(err);
+        console.error(err.response.data);
       }
     }
   };
-
-  useEffect(() => {
-    fetchUser();
-  }, []);
 
   return (
     <>
       <Navbar />
       <Outlet />
-      <div>
+      {/* <div>
         <h1>{userData?.firstName}</h1>
-      </div>
+      </div> */}
       <Footer />
     </>
   );

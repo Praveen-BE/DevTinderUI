@@ -64,6 +64,6 @@ Link For Commit [ Build Logout - Link🔗](https://github.com/Praveen-BE/DevTind
 - Gender Drop Down
 - Text Area about
 
-Link For Commit [ Edit profile and Feed Page Initialize - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/) if you want Checkout😊
+Link For Commit [ Edit profile and Feed Page Initialize - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/796e584) if you want Checkout😊
 
 </details>

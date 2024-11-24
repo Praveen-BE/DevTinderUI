@@ -98,7 +98,7 @@ const EditProfile = () => {
                     onChange={(e) => setGender(e.target.value)}
                     className="select input-bordered w-full max-w-xs"
                   >
-                    <option disabled selected>
+                    <option disabled defaultValue={""} selected>
                       Select Your Gender?
                     </option>
                     <option value="male">Male</option>

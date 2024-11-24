@@ -6,6 +6,8 @@ import appStore from "./utils/appStore";
 import Feed from "./component/Feed";
 import Profile from "./component/Profile";
 import EditProfile from "./component/EditProfile";
+import ReviewRequests from "./component/ReviewRequests";
+import ConnectionsPage from "./component/ConnectionsPage";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
               <Route path="/login" element={<Login />} />
               <Route path="/profile" element={<Profile />} />
               <Route path="/editprofile" element={<EditProfile />} />
+              <Route path="/connections" element={<ConnectionsPage />} />
+              <Route path="/request" element={<ReviewRequests />} />
             </Route>
           </Routes>
         </BrowserRouter>

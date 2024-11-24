@@ -27,7 +27,9 @@ const Feed = () => {
     if (!userData) {
       navigate("/login");
     }
-    fetchFeedData();
+    if (userData) {
+      fetchFeedData();
+    }
   }, []);
 
   return (

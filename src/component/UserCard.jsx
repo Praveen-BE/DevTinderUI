@@ -1,6 +1,7 @@
 const UserCard = (props) => {
   const user = props;
-  const { firstName, lastName, photoUrl, about, age, gender } = user?.userData;
+  const { firstName, lastName, photoUrl, about, age, gender } =
+    user?.userData || "";
   return (
     <div className="flex justify-center p-4">
       <div className="card bg-base-100 w-96 shadow-xl">
@@ -11,8 +12,11 @@ const UserCard = (props) => {
           <h2 className="card-title justify-center">
             {firstName + " " + lastName}
           </h2>
-          {age && <p>Age : {age}</p>}
-          {gender && <p>Gender : {gender}</p>}
+          <div className="flex justify-center">
+            {age && <h1>Age : {age}</h1>}
+            {" " + " "}
+            {gender && <h1> &nbsp; &nbsp;Gender : {gender}</h1>}
+          </div>
           <p>{about}</p>
           <div className="card-actions justify-center flex">
             <button className="btn btn-primary">Ignore</button>
