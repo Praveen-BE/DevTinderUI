@@ -73,6 +73,10 @@ Link For Commit [ feat : Connection Page - Link🔗](https://github.com/Praveen-
 - New Page - See all my Connection Request
 - feature - Accept / Reject Connection Request
 
-Link For Commit [ feat : Show Connection Request And Accept/Reject request - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/) if you want Checkout😊
+Link For Commit [ feat : Show Connection Request And Accept/Reject request - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/4a74ced) if you want Checkout😊
+
+- feed page send request to interested and ignore
+
+Link For Commit [ feat : Feed Make api interested and ignored - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/) if you want Checkout😊
 
 </details>

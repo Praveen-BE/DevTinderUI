@@ -17,7 +17,7 @@ const Feed = () => {
       const res = await axios.get(BASE_URL + "/feed", {
         withCredentials: true,
       });
-      dispatch(addFeed(res.data));
+      dispatch(addFeed(res.data.data));
     } catch (err) {
       console.error(err);
     }
@@ -32,10 +32,24 @@ const Feed = () => {
     }
   }, []);
 
+  if (feed == null) {
+    return;
+  }
+
+  if (feed.length === 0) {
+    return (
+      <div>
+        <h1 className="text-center">
+          No More User 🥺. Please invite Your Friends
+        </h1>
+      </div>
+    );
+  }
+
   return (
     userData && (
       <div>
-        <UserCard userData={feed?.data[0]} />
+        <UserCard userData={feed?.[0]} />
       </div>
     )
   );
