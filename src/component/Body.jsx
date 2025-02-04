@@ -35,7 +35,9 @@ const Body = () => {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <div className="overflow-auto">
+        <Outlet />
+      </div>
       {/* <div>
         <h1>{userData?.firstName}</h1>
       </div> */}

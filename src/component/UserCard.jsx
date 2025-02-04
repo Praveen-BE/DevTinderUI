@@ -10,7 +10,7 @@ const UserCard = (props) => {
     user?.userData || "";
   const choosePerson = async (status, feedUserId) => {
     try {
-      const res = await axios.post(
+      await axios.post(
         BASE_URL + "/request/send/" + status + "/" + feedUserId,
         { status, feedUserId },
         { withCredentials: true }
@@ -24,7 +24,7 @@ const UserCard = (props) => {
     <div className="flex justify-center p-4">
       <div className="card bg-base-100 w-96 shadow-xl">
         <figure>
-          <img src={photoUrl} alt={firstName + " Profile Photo"} />
+          <img src={photoUrl} alt={firstName + "ProfilePhoto"} />
         </figure>
         <div className="card-body text-center">
           <h2 className="card-title justify-center">

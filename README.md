@@ -79,6 +79,8 @@ Link For Commit [ feat : Show Connection Request And Accept/Reject request - Lin
 
 Link For Commit [ feat : Feed Make api interested and ignored - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/c5ff939) if you want Checkout😊
 
-- Sign Up Form and Some Bug Fixes
+- Sign Up Form
+
+Link For Commit [ feat : Sign Up Form & Some Funtionalities - Link🔗](https://github.com/Praveen-BE/DevTinderUI/commit/6be5f43) if you want Checkout😊
 
 </details>
