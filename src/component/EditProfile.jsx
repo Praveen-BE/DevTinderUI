@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import UserCard from "./userCard";
+import UserCard from "./UserCard";
 import axios, { Axios } from "axios";
 import { BASE_URL, defaultProfile } from "../constants";
 import { addUser } from "../utils/userSlice";
